@@ -15,7 +15,7 @@
         android:textColor="@color/colorPrimaryDark"/>
 
     <Button
-        android:id="@+id/button_go_to_sign_up"
+        android:id="@+id/button_start"
         style="@android:style/Widget.DeviceDefault.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="36dp"

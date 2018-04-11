@@ -18,7 +18,7 @@ public class IntroActivity extends MaterialIntroActivity {
 
         addSlide(new SlideFragmentBuilder()
                 .backgroundColor(R.color.colorPrimary)
-                .buttonsColor(R.color.colorAccent)
+                .buttonsColor(R.color.colorPrimaryDark)
                 .image(R.drawable.flower)
                 .title("Lilac")
                 .description("Manage your flower orders with us!")
@@ -26,7 +26,7 @@ public class IntroActivity extends MaterialIntroActivity {
 
         addSlide(new SlideFragmentBuilder()
                 .backgroundColor(R.color.colorPrimary)
-                .buttonsColor(R.color.colorAccent)
+                .buttonsColor(R.color.colorPrimaryDark)
                 .image(R.drawable.phone)
                 .title("Your orders, mobile!")
                 .description("View all your order details, addresses and clients!")
@@ -34,7 +34,7 @@ public class IntroActivity extends MaterialIntroActivity {
 
         addSlide(new SlideFragmentBuilder()
                 .backgroundColor(R.color.colorPrimary)
-                .buttonsColor(R.color.colorAccent)
+                .buttonsColor(R.color.colorPrimaryDark)
                 .image(R.drawable.start)
                 .title("Start now!")
                 .build());
