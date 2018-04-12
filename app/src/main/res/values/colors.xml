@@ -7,4 +7,6 @@
     <color name="colorAccentDark">#6a0080</color>
     <color name="colorAccentLight">#d05ce3</color>
     <color name="white">#FFFFFF</color>
+    <color name="red">#B22222</color>
+    <color name="teal">#008080</color>
 </resources>
