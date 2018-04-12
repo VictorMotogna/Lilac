@@ -41,6 +41,14 @@ public class OrdersAdapter extends RecyclerView.Adapter<OrdersAdapter.ItemViewHo
         holder.address.setText(order.getAddress());
         holder.client.setText(order.getClient());
 
+        if(order.getDescription().contains("Red")) {
+            holder.description.setTextColor(context.getResources().getColor(R.color.red));
+        } else if (order.getDescription().contains("Pink")) {
+            holder.description.setTextColor(context.getResources().getColor(R.color.colorAccent));
+        } else {
+            holder.description.setTextColor(context.getResources().getColor(R.color.teal));
+        }
+
         holder.learn_more.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

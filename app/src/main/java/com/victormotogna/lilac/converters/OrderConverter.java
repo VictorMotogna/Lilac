@@ -41,7 +41,7 @@ public class OrderConverter {
 
         List<Order> orders = new ArrayList<>();
 
-        for (int i = 1; i < jsonArray.size(); i++) {
+        for (int i = 0; i < jsonArray.size(); i++) {
             orders.add(OrderConverter.fromJson(jsonArray.get(i).getAsJsonObject()));
         }
 
