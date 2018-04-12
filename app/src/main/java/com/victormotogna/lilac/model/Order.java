@@ -1,6 +1,8 @@
 package com.victormotogna.lilac.model;
 
-public class Order {
+import java.io.Serializable;
+
+public class Order implements Serializable {
 
     /*
     Api model - JSON:

@@ -1,5 +1,6 @@
 package com.victormotogna.lilac.ui.orders;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -67,7 +68,7 @@ public class OrdersActivity extends AppCompatActivity {
         adapter.setOnItemClickListener(new OrdersAdapter.OnItemClickListener() {
             @Override
             public void onItemClicked(int position, Order order) {
-                // TODO: open activity for order details
+                viewOrderDetails(order);
             }
         });
 
@@ -87,5 +88,11 @@ public class OrdersActivity extends AppCompatActivity {
                 populateView();
             }
         });
+    }
+
+    public void viewOrderDetails(Order order) {
+        Intent intent = new Intent(OrdersActivity.this, OrderDetailsActivity_.class);
+        intent.putExtra("order", order);
+        startActivity(intent);
     }
 }
