@@ -22,6 +22,7 @@
 
         <activity android:name=".ui.LandingActivity_"/>
         <activity android:name=".ui.orders.OrdersActivity_"/>
+        <activity android:name=".ui.orders.OrderDetailsActivity_"/>
     </application>
 
 </manifest>

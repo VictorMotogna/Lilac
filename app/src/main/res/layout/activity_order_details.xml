@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/webViewMap"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:text="Big Roses"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="32dp"
+        android:id="@+id/order_description"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:text="120 lei"
+        android:textSize="24dp"
+        android:id="@+id/order_price"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laura Rusu"
+            android:textSize="24dp"
+            android:id="@+id/order_client"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="144dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="view map"
+            android:paddingBottom="8dp"
+            android:id="@+id/view_map"/>
+
+    </LinearLayout>
+
+</LinearLayout>
